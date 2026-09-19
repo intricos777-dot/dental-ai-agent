@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dental-ai-agent"
+version = "0.1.0"
+description = "AI Dental Receptionist - Automated appointment confirmations, rescheduling, and patient intake screening"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Dental AI Solutions"}
+]
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "pyyaml>=6.0.1",
+    "httpx>=0.25.0",
+    "python-multipart>=0.0.6",
+]
+
+[project.optional-dependencies]
+ollama = ["ollama>=0.1.0"]
+dev = ["pytest>=7.4.0", "pytest-asyncio>=0.23.0", "httpx>=0.25.0"]
+
+[project.scripts]
+dental-ai-demo = "dental_ai_agent.demo:main"
+dental-ai-api = "dental_ai_agent.api:main"
+
+[tool.setuptools.packages.find]
+include = ["dental_ai_agent*"]

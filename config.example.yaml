@@ -1,0 +1,60 @@
+# Example configuration for Bright Smile Dental
+# Copy this to config.yaml and customize for your practice
+
+name: "Bright Smile Dental"
+phone: "(555) 123-4567"
+email: "info@brightsmiledental.com"
+address: "123 Main Street, Suite 100, Anytown, USA 12345"
+
+hours:
+  Mon: ["08:00", "17:00"]
+  Tue: ["08:00", "17:00"]
+  Wed: ["08:00", "17:00"]
+  Thu: ["08:00", "17:00"]
+  Fri: ["08:00", "16:00"]
+  Sat: ["09:00", "13:00"]
+  Sun: [null, null]
+
+services:
+  - "General Checkup & Cleaning"
+  - "Teeth Whitening"
+  - "Dental Fillings"
+  - "Root Canal Treatment"
+  - "Tooth Extraction"
+  - "Dental Crowns & Bridges"
+  - "Dental Implants"
+  - "Orthodontics (Braces/Invisalign)"
+  - "Pediatric Dentistry"
+  - "Periodontal Treatment"
+
+doctors:
+  - name: "Dr. Sarah Johnson"
+    specialty: "General Dentistry"
+    available_days: ["Mon", "Tue", "Wed", "Thu", "Fri"]
+  - name: "Dr. Michael Chen"
+    specialty: "Orthodontics"
+    available_days: ["Mon", "Wed", "Fri"]
+  - name: "Dr. Emily Rodriguez"
+    specialty: "Pediatric Dentistry"
+    available_days: ["Tue", "Thu", "Fri"]
+
+insurance_plans:
+  - "Delta Dental"
+  - "Cigna Dental"
+  - "Aetna Dental"
+  - "MetLife Dental"
+  - "UnitedHealthcare Dental"
+  - "Guardian Dental"
+
+# LLM settings
+llm_backend: "ollama"  # "ollama" or "simple"
+ollama_model: "llama3.2:latest"
+ollama_host: "http://localhost:11434"
+
+# Agent behavior
+max_conversation_turns: 20
+confirmation_required: true
+collect_insurance_info: true
+
+# Optional integrations config
+integrations: {}
