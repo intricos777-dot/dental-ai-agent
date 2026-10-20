@@ -1,3 +1,4 @@
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """HTTP API for the dental AI agent.
 
 Provides REST endpoints for:

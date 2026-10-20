@@ -1,3 +1,4 @@
+<!-- Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work -->
 # AI Dental Receptionist
 
 An AI-powered receptionist for dental practices. Handles appointment confirmations, rescheduling, patient intake screening, and FAQ answering — 24/7, at a fraction of the cost of a human receptionist.

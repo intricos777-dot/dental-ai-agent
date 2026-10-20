@@ -1,3 +1,4 @@
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """Demo script for the AI Dental Receptionist.
 
 Shows the agent handling common patient interactions in a terminal demo.

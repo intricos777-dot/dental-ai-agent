@@ -1,3 +1,4 @@
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """AI Dental Receptionist Agent - Main module."""
 from .config import PracticeConfig, load_config
 from .chatbot import DentalChatbot

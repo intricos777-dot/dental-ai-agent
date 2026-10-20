@@ -1,3 +1,4 @@
+# Watermark: Living_Sin (intricos777-dot) + AI agents (Hermes, Lia, opencode) - collaborative work
 """Core chatbot interface for the dental AI receptionist."""
 from __future__ import annotations
 
